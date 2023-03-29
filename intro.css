@@ -24,3 +24,18 @@ h2{padding: 30px 100px;
 }
 .Big {color:purple;
 font-size:xx-large;}
+
+
+/* ===================== 미디어쿼리======================= */
+/* 미디어 종류 : all, print, screen, speech... 그밖에 장치는 검색! */
+@media screen and (max-width: 768px) {
+   body{
+    background-color:aqua;
+   } 
+}
+
+@media screen and (max-width: 500px) {
+    body{
+     background-color:aquamarine;
+    } 
+ }
